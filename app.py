@@ -9,4 +9,4 @@ app = Flask(__name__)
 register_views.register_views(app)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

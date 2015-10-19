@@ -8,17 +8,18 @@
 		{# css and favicon #}
 		<link rel="stylesheet" href="http://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro.min.css">
 		<link rel="stylesheet" href="http://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-responsive.min.css">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='gb.css') }}"
 	</head>
 	<body>
 		<div>
 		<header class="app-bar fixed-top navy" data-role="appbar">
-			<div class="container page-content">
+			<div class="container">
 				<a href="/" class="app-bar-element">Gad Berger</a>
+				<a href="about" class="app-bar-element">About</a>
 			</div>
 		</header>
 		</div>
-		<div class="container" style="padding-top:48px;">
-			<h1>Test</h1>
+		<div class="container page-content">
 			{% block body %}
 			{% endblock %}
 		</div>

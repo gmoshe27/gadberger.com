@@ -4,3 +4,6 @@ from flask.ext.classy import FlaskView
 class HomeView(FlaskView):
     def index(self):
         return render_template('home/index.html')
+
+    def about(self):
+        return render_template('home/about.html')
