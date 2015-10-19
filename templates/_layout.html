@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head lang="en">
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Gad Berger"
 		<title>Gad Berger</title>
 		{# css and favicon #}
+		<link rel="stylesheet" href="http://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro.min.css">
+		<link rel="stylesheet" href="http://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-responsive.min.css">
 	</head>
 	<body>
-		{% block body %}
-		{% endblock %}
+		<div>
+		<header class="app-bar fixed-top navy" data-role="appbar">
+			<div class="container page-content">
+				<a href="/" class="app-bar-element">Gad Berger</a>
+			</div>
+		</header>
+		</div>
+		<div class="container" style="padding-top:48px;">
+			<h1>Test</h1>
+			{% block body %}
+			{% endblock %}
+		</div>
 		{# footer and scripts #}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/js/metro.min.js"></script>
 	</body>
 </html>
