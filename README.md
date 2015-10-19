@@ -1,5 +1,5 @@
 # gadberger.com
-My personal website, written with python 3.5 Built with love, care, curiousity, and the [https://en.wikipedia.org/wiki/Serial_comma](oxford comma).
+My personal website, written with python 3.5 Built with love, care, curiousity, and the [oxford comma](https://en.wikipedia.org/wiki/Serial_comma).
 
 # setup
 Create the virtual environment
