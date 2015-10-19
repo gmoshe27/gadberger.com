@@ -3,4 +3,4 @@ from flask.ext.classy import FlaskView
 
 class HomeView(FlaskView):
     def index(self):
-        return "hello"
+        return "¡hola, mundo!"
