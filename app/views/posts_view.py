@@ -13,4 +13,4 @@ class PostsView(FlaskView):
         post_dir = current_app.config["POST_DIR"]
         path = "{}/{}".format(post_dir, name)
         post = flatpages.get_or_404(path)
-        return render_template("posts/index.html", post=post)
+        return render_template("posts/post.html", post=post)
